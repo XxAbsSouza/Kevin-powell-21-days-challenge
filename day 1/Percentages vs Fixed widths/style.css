@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent {
+    background-color: #12324a;
+    padding: 50px;
+
+    /*Maneira em que mts vezes usa para definir o tamanho de um caontainer*/
+    /* width: 900px; */
+    /*Mas qual o problema?
+        No Responsivo isso não vai ficar responsivo kkkk, vai acontecer overflow
+            Isso é um problema do css? Não pq se vc tirar esse width ele vai ficar responsivo 😱*/
+        
+    margin: 0 auto; 
+
+    width: 80%;
+    /* 80% de QUÊ???
+        Do elemento PAI, mas como o parent n tem um elemento pai que nós criamos, o pai dele é o body, que vai pegar 100% da viewport
+        Logo, fica 80% de viewport para todos os tamanho de tela, n importa o que aconteça */
+}
+
+.child {
+    background-color: #0091ff;
+    height: 250px;
+}
