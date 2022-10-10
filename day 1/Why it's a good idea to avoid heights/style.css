@@ -4,18 +4,19 @@
     box-sizing: border-box;
 }
 
-
-.parent {
+.container {
     background-color: #12324a;
-    padding: 50px;
+    color: white;
 
     margin: 0 auto;
     width: 80%;
 
-}
+    /* Desse jeito vai acontecer overflow com o conteúdo em telas pequenas */
+    /* height: 300px; */
 
-.child {
-    background-color: #0091ff;
-    height: 250px;
-    width: 50%; 
+    /* OBS.: Lembra que sem css o site É responsivo??
+        Se vc coloca um heigth o container MUST have o tamanho que vc definiu, e se o tamanho q vc definiu simplesmente n funciona para o conteúdo que está dentro dele, o css vai fazer com q esse conteúdo n se perca e apareça ( msm da forma q vc n quer hehe) */
+
+    /* Ok, mas se eu quiser esse conteúdo ocupando tal altura pq eu quero mais desse background? */
+    padding: 5em; /* 16 * 5 = 80px */
 }
