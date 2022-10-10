@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.parent {
+    background-color: #12324a;
+    padding: 50px;
+
+    margin: 0 auto;
+    width: 80%;
+
+    /* overflow: hidden; */
+    
+}
+
+.child {
+    background-color: #0091ff;
+    height: 250px;
+
+    /*Maneira muitas vezes usadas para dar um tamanho para um container filho*/
+    /* width: 750px; */
+    /* O que vai acontecer? Esse conteúdo vai sair fora do tamanho em telas pequenas (overflow), e funciona em telas maiores porem fica feio */
+
+    width: 50%;
+    /* 50% de quê? do container pai que tem um width de 80%; 50% de 80% ~ oi Dilma rs ~, enfim fica no meio
+        Mas qual o problema? Da mesma maneira em telas pequenas acontece o overflow */
+}
