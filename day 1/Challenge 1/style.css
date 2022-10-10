@@ -21,3 +21,7 @@ body {
 .intro-content {
   width: 50%;
 }
+
+h1 {
+  margin: 1em 0;
+}

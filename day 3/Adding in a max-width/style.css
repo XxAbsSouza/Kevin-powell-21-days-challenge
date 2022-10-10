@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    background: #23424a;
+    color: white;
+
+    /* Dessa maneira vamos demilitar o espaço certo? Mas para telas maaaiiiooorrreeesss o texto pode ficar todo em uma única linha, o q pode ter a experiência do usuário afetada (fica extranho) */
+    width: 80%;
+    /* Pq colocar um width e um max-width?
+        O width serve pra demilitar o tamanho q o container vai abranger, 80% da viewport, mas se eu n quero que as coisas fiquem estranhas no responsivos para telas grandes, precisa colocar uma ma-width para que quando o 80% da viewport exceda 750px o container parar de crescer. */
+    max-width: 750px;
+    margin: 0 auto;
+
+    padding: 2em;
+}
+
+.intro-content {
+    width: 50%;
+}
+
+h1 {
+    margin: 1em 0;
+}
