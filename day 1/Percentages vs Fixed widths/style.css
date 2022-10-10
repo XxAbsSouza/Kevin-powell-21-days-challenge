@@ -9,11 +9,14 @@
     background-color: #12324a;
     padding: 50px;
 
-    /*Maneira em que mts vezes usa para definir o tamanho de um caontainer*/
+    /*Maneira em que mts vezes usa para definir o tamanho de um container*/
     /* width: 900px; */
     /*Mas qual o problema?
         No Responsivo isso não vai ficar responsivo kkkk, vai acontecer overflow
-            Isso é um problema do css? Não pq se vc tirar esse width ele vai ficar responsivo 😱*/
+            Isso é um problema do css? Não pq se vc tirar esse width ele vai ficar responsivo 😱
+            
+            Obs.: Por isso fazer um site mobile-first é mtttttt melhor, pq sem nenhuma linha de css tudo é responsivo, a ideia é add complexidade para telas maiores e fazer o simples primeiro e como principal*/
+
         
     margin: 0 auto; 
 
