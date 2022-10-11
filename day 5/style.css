@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: violet;
+    padding: 150px 0;
+}
+
+.container--content {
+    width: 50%;
+    margin: 0 10%;
+    max-width: 750px;
+}
+
+h1,
+p {
+    padding-bottom: 1em;
+}
+
+button {
+    color: violet;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bolder;
+    border-color: transparent;
+    background-color: rgb(33, 0, 33);
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 3rem;
+}
